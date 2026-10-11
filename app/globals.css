@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-trocchi: var(--font-trocchi);
+  --font-spicy-rice: var(--font-spicy-rice);
+}
+
+:root {
+  --background: #fbf3e4;
+  --foreground: #704b3c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-trocchi), serif;
+}
+
+.font-trocchi {
+  font-family: var(--font-trocchi), serif;
+}
+
+.font-spicy-rice {
+  font-family: var(--font-spicy-rice), cursive;
+}
+
+::selection {
+  background: #f3c4ce;
+  color: #704b3c;
+}
