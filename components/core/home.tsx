@@ -150,7 +150,7 @@ text-center text-[#704b3c] translate-y-14"
           Little moments, forever memories.
         </p>
         <Button
-          asChild
+          render={<Link href="/booth" />}
           className="mt-6 h-auto rounded-[18px] bg-[#bd4275]
             px-5 py-2.5 font-trocchi text-sm text-white
             shadow-[0_5px_10px_rgba(95,55,60,0.18)]
@@ -158,7 +158,7 @@ text-center text-[#704b3c] translate-y-14"
             hover:-translate-y-1 hover:bg-[#a93666]
             sm:text-base lg:text-lg"
         >
-          <Link href="/booth">Go to the booth!</Link>
+          Go to the booth!
         </Button>
       </section>
     </main>

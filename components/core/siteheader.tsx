@@ -34,6 +34,17 @@ export default function Navbar() {
             lg:gap-5"
         >
           <Link
+            href="/booth"
+            className="transition-colors hover:text-[#bd4275]"
+          >
+            Booth
+          </Link>
+
+          <span aria-hidden="true" className="text-[#d95b8b]">
+            ★
+          </span>
+
+          <Link
             href="/about"
             className="transition-colors hover:text-[#bd4275]"
           >
