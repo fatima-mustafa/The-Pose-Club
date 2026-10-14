@@ -57,7 +57,7 @@ export default function ChooseLayout() {
               ({ name, description, photos, label, Preview, background }) => (
                 <Link
                   key={photos}
-                  href={`/booth?layout=${photos}`}
+                  href={`/camera?layout=${photos}`}
                   className="group flex h-full min-h-[500px] flex-col rounded-[25px] border-2 border-[#6F4C3E] bg-transparent p-5 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-[0_12px_24px_rgba(112,75,60,0.18)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#6F4C3E] sm:min-h-[540px] sm:p-6 lg:p-7"
                 >
                   {/* Preview area */}
